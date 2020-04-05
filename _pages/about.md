@@ -15,8 +15,7 @@ keywords: >-
   Nanopore
 ---
 I'm a lecturer in Veterinary Microbiology and Public Health, currently working at: \\
-the [Asia Pacific Centre for Animal Health](https://fvas.unimelb.edu.au/research/centres/asia-pacific-centre-for-animal-health) \\
-at the University of Melbourne.
+the [Asia Pacific Centre for Animal Health](https://fvas.unimelb.edu.au/research/centres/asia-pacific-centre-for-animal-health) at the University of Melbourne.
 
 ### My research interests include:
 * Pathogen surveillance in wildlife
