@@ -1,14 +1,21 @@
 ---
-layout: page
-title: What the heck is BLAST
+layout: single
+title: "What the heck is BLAST?"
 description: A, hopefully, simple explainer on the bioinformatics tool BLAST
-keywords: BLAST, biology, genomics, bioinformatics
+header:
+  teaser: "unsplash-gallery-image-2-th.jpg"
+categories:
+  - "What the heck is"
+  - BLAST
+  - Software
+  - Bioinformatics
+tags:
+  - BLAST
+  - biology
+  - genomics
+  - bioinformatics
 ---
 
-### What the heck is BLAST?
-last update: 21-May-2019
-
-## What is it?
 BLAST is one of the more commonly used tools by biologists to investigate DNA sequences, whether the sequencing is achieved with traditional Sanger sequencing, or next-generation sequencing. At a basic level, it takes an input sequence of DNA or amino acids, and tries to find a 'best match' in a database. The majority of people will use the tool through the NCBI web interface, and find alignments within the nt (nucleotide) database.
 
 ## Etymology

@@ -2,6 +2,8 @@
 layout: page
 title: Shiny apps
 description: Shiny apps written by Alistair Legione
+redirect_from:
+  - /tools
 ---
 
 I have tried my hand at making some Shiny apps, you can access and run them from here
