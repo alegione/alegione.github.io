@@ -1,5 +1,5 @@
 ---
-title: NBA voting
+title: Why don't we have "Individual Game Voting" (IGV) for the NBA MVP?
 permalink: /2020/03/28/NBAmvpVote
 tags:
   - NBA
@@ -7,8 +7,6 @@ tags:
   - MVP voting
 published: true
 ---
-# Why don't we have "Individual Game Voting" (IGV) for the NBA MVP?
-
 Why do we do this to ourselves every year? The NBA plays for several months, 82 games for each team, and after All Star break comes and goes, everyone starts discussions about who will win the end of season awards. This inevitably leads to the *narrative* playing out. This year is no different. Giannis Antetokounmpo has been the best player for the whole year, everyone (humans and statistics) has agreed on this point up until a few weeks ago when, perhaps bored with same story for too many months, LeBron was touted as a competitor. Then on every talk show and podcast, media members start discussing the possibility. The league having to suspend/postpone due to the global pandemic put a dampener on these discussions to some degree, but if the season had continued momentum would have only grown.
 
 ## Does the media get caught up in their own narrative?
