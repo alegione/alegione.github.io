@@ -10,7 +10,7 @@ highlighter: rouge
 #
 
 locale                   : "en-UK"
-title                    : "Alistair Legione Personal Website"
+title                    : "Alistair Legione"
 title_separator          : "-"
 name                     : &name "Alistair Legione"
 description              : &description "This is the personal website of Dr Alistair Legione"
