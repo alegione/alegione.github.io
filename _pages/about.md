@@ -14,7 +14,7 @@ keywords: >-
   Legione, virology, microbiology, Chlamydia, Koala retrovirus, genomics,
   Nanopore
 ---
-I'm Lecturer in Veterinary Microbiology and Public Health, currently working at: \\
+I'm a lecturer in Veterinary Microbiology and Public Health, currently working at: \\
 the [Asia Pacific Centre for Animal Health](https://fvas.unimelb.edu.au/research/centres/asia-pacific-centre-for-animal-health) \\
 at the University of Melbourne.
 
