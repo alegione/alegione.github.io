@@ -1,6 +1,5 @@
 ---
 title: NBA voting
-date: {}
 permalink: /2020/03/28/NBAmvpVote
 tags:
   - NBA
