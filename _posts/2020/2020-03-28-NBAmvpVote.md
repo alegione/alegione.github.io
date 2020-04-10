@@ -7,6 +7,7 @@ tags:
   - MVP voting
 published: true
 comments: true
+teaser: /images/NBAvotes-plot.jpeg
 ---
 Why do we do this to ourselves every year? The NBA plays for several months, 82 games for each team, and after All Star break comes and goes, everyone starts discussions about who will win the end of season awards. This inevitably leads to the *narrative* playing out. This year is no different. Giannis Antetokounmpo has been the best player for the whole year, everyone (humans and statistics) has agreed on this point up until a few weeks ago when, perhaps bored with same story for too many months, LeBron was touted as a competitor. Then on every talk show and podcast, media members start discussing the possibility. The league having to suspend/postpone due to the global pandemic put a dampener on these discussions to some degree, but if the season had continued momentum would have only grown.
 
@@ -161,5 +162,3 @@ I did the data analysis with the help of the following R packages
 + directlabels
 
 And of course, I utilised R and RStudio for the analysis.
-
-
