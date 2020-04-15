@@ -18,7 +18,7 @@ This guide will *NOT* take you through the basics of Unix commands themselves un
 
 If you have an Apple computer, you already have a terminal interface to use, so that's about the one benefit of Apples sorted. IF you're on a Windows device, hopefully you're using Windows 10, with which we are able to install the Windows Subsystem for Linux **(WSL)** to run a Unix terminal. An important distinction to make, the Windows cmd.exe is *not* the same as Unix command line, and the commands used a vastly different.
 
-# Before you started
+## Before you started
 Some things you'll need to be ready to do:
   + Have your work saved, you'll probably have to restart your machine at least Concierge
   + Be connected to the internet! We'll be downloading lots of things from here
@@ -42,7 +42,7 @@ Now to install Ubuntu!
 **Note:** If you have a computer running something older than Windows 10, then you'll need to use [PuTTY](https://www.putty.org/) as your terminal, this will connect directly to the Melbourne Research Cloud (MRC), MediaFlux, or Spartan, rather than having your own local version of Ubuntu
 
 
-# Initial terminal set up
+## Initial terminal set up
 + The terminal will ask you to create an 'account', this can be something as simple as your first name, or something similar to your university username, it's up to you!
 + You'll need to create a password, make this something easy for you to remember and difficult for anyone else to guess, we'll use the password whenever administrative privileges are needed (e.g. installing programs or modifying permissions)
      + Important note! Passwords do not appear when you type them in like in a Windows environment (e.g. Password123 won't appear as ***********), it will remain blank, if you make a mistake just hit the backspace more times than you've typed letters and you'll be fine!
@@ -55,7 +55,7 @@ To briefly explain the command, `sudo` elevates privileges so that we can instal
 
 **Note:** Each of the commands separated by `&&` can be run separately (one command/line at a time), but stringing them together with the `&&` means that each command will run if the preceding command completes successfully and you don't have to keep checking to see if the previous command has finished.
 
-# Setting up links to frequently used folders
+## Setting up links to frequently used folders
 If you're used to using Windows Operating Systems, the literal black box of the command line can be quite daunting. But think of your initial starting point on the command line as being inside your 'User' directory in Windows (called a 'Home' directory in Ubuntu). The folders 'above' are equivalent to the C drive, with the various system folders you won't need to worry too much about. In the initial terminal, the Home folder is shortened to ~ for simplicity, but the actual path is `/home/YOURNAME/`. You could make new folders and generate files in this home directory, but the easiest thing to do is to create shortcuts to the Windows directories you're already using. Technically the Linux file system is possible to find from inside the Windows Explorer graphical interface, but it's recommended not to play around with it lest you break your installation. The shortcut command for Unix is `ln`
 If you want to create a shortcut to your Documents folder in Windows, you'd run something similar to the following (dependant on where your Documents folder is)
 
@@ -72,11 +72,13 @@ A trickier example is the University of Melbourne's OneDrive folders, which are 
 
 **Note:** You may notice that for both commands, the shortcuts were both lowercase, this is just a time saver. Unix commands are case sensitive, and you could have 3 folders called "Alistair", "alistair", and "ALISTAIR". Sticking to a consistent theme for your folders and files will help you navigate your Unix environment.
 
-# What now?
+## What now?
 Now you're ready to use your Unix terminal! If you're now planning on connecting to one of the various cloud systems you can jump right ahead to that
 Or, if you want to install a package manager locally (this helps you to install any of the bioinformatics tools you may want to use on your own computer, not in the cloud), then you can do that too.
 
 Guides for each of these steps will hopefully appear soon
+
+If you have any questions or suggestions, feel free to use the comment box below
 
 **Update (15/04/2020):**
 ## A few common questions answered
