@@ -48,6 +48,7 @@ Now to install Ubuntu!
      + Important note! Passwords do not appear when you type them in like in a Windows environment (e.g. Password123 won't appear as ***********), it will remain blank, if you make a mistake just hit the backspace more times than you've typed letters and you'll be fine!
 + Get ready to make yourself a cup of tea, because the next step will take a while
 + Run the following commands (you'll be asked for your newly created password, and part way through the screen might change and a yes/no option will pop up, select 'yes')
+
 `sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove && sudo apt clean`
 
 To briefly explain the command, `sudo` elevates privileges so that we can install things, `apt` is the Ubuntu 'store' much like Google play or the Apple store, the `update` command updates the list of all the current software available and where to download it, and the `full-upgrade` command will take any software you've presently got installed and bump it up to the latest version. The addition of the `-y` is what we call an 'option', in this case it's telling the installer to automatically agree (that is, say yes) to upgrading any software found to be out of date. Finally the `autoremove` and `clean` commands will remove any unnecessary programs or downloaded installers from your system afterwards.
@@ -57,6 +58,7 @@ To briefly explain the command, `sudo` elevates privileges so that we can instal
 # Setting up links to frequently used folders
 If you're used to using Windows Operating Systems, the literal black box of the command line can be quite daunting. But think of your initial starting point on the command line as being inside your 'User' directory in Windows (called a 'Home' directory in Ubuntu). The folders 'above' are equivalent to the C drive, with the various system folders you won't need to worry too much about. In the initial terminal, the Home folder is shortened to ~ for simplicity, but the actual path is `/home/YOURNAME/`. You could make new folders and generate files in this home directory, but the easiest thing to do is to create shortcuts to the Windows directories you're already using. Technically the Linux file system is possible to find from inside the Windows Explorer graphical interface, but it's recommended not to play around with it lest you break your installation. The shortcut command for Unix is `ln`
 If you want to create a shortcut to your Documents folder in Windows, you'd run something similar to the following (dependant on where your Documents folder is)
+
 `ln -s /mnt/c/Users/YOURNAME/Documents documents`
 
 `/mnt/` is the directory for your Windows drives, your WSL Ubuntu will be able to recognise most drives, but it unfortunately falls short with some extension MicroSD situations on tablets.
@@ -64,7 +66,9 @@ If you want to create a shortcut to your Documents folder in Windows, you'd run 
 
 The link we've created is in your home directory, and therefore the path ~/documents will take you to your Windows Documents folder.
 
-A trickier example is the University of Melbourne's OneDrive folders, which are called 'OneDrive - The University of Melbourne' by default. Unix considers spaces as separators between commands, so OneDrive - The University of Melbourne, is six separate inputs to the command line: "OneDrive", "-", "The", "University", "of", "Melbourne". To get around this issues, quotation marks are your friend. Text inside quotation marks is read as a single long string, so our command would be: `ln -s "/mnt/c/Users/YOURNAME/OneDrive - The University of Melbourne" onedrive`
+A trickier example is the University of Melbourne's OneDrive folders, which are called 'OneDrive - The University of Melbourne' by default. Unix considers spaces as separators between commands, so OneDrive - The University of Melbourne, is six separate inputs to the command line: "OneDrive", "-", "The", "University", "of", "Melbourne". To get around this issues, quotation marks are your friend. Text inside quotation marks is read as a single long string, so our command would be:
+
+`ln -s "/mnt/c/Users/YOURNAME/OneDrive - The University of Melbourne" onedrive`
 
 **Note:** You may notice that for both commands, the shortcuts were both lowercase, this is just a time saver. Unix commands are case sensitive, and you could have 3 folders called "Alistair", "alistair", and "ALISTAIR". Sticking to a consistent theme for your folders and files will help you navigate your Unix environment.
 
