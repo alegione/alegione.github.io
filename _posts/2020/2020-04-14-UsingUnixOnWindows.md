@@ -77,3 +77,9 @@ Now you're ready to use your Unix terminal! If you're now planning on connecting
 Or, if you want to install a package manager locally (this helps you to install any of the bioinformatics tools you may want to use on your own computer, not in the cloud), then you can do that too.
 
 Guides for each of these steps will hopefully appear soon
+
+**Update (15/04/2020):**
+## A few common questions answered
+- Something worth pointing out is that your normal keyboard shortcuts won't work on the command line, so Ctrl+C/Ctrl+V won't copy/paste! On the WSL, the 'Right Click' will do this for you, if you highlight text and right click, it will be copied to the clipboard (the name we give to the bit of memory your copied text goes to), then similarly if you move the cursor and right click elsewhere, it will paste from the clipboard. Be careful not to right click onto other text, as it will likely try to copy the single letter/character where your mouse cursor is!
+- You won't be able to just click on a location in your command line for the text cursor to move to, you have to move with the keyboard arrows. Using home/end will make it easier to jump to the start/end of a command, and holding Ctrl whilst using the arrows will jump by word, rather than by character.
+- Using the 'Up Arrow' key will take you back to your previous commands, so if you type something out and make a mistake, you can just use 'Up' to bring back the previous command (or 50 commands ago if you want to really go back!), then simply edit that to fix your error and re-run it again
