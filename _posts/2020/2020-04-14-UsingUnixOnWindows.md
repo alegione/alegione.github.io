@@ -1,17 +1,13 @@
 ---
-layout: single
 title:  "Computational Biology 101: Getting a Unix command line on Windows 10"
+permalink: "/2020/04/15/UsingUnixOnWindows"
 header:
   teaser: "images/commandline-example-helloworld.jpg"
-categories:
+tags:
   - "Computational Biology 101"
   - Unix
   - education
   - coding
-tags:
-  - bash
-  - conda
-  - Homebrew
   - "University of Melbourne"
   - "High performance computing"
 ---
