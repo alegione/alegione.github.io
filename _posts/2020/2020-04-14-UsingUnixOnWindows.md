@@ -49,6 +49,7 @@ Now to install Ubuntu!
 # Initial terminal set up
 + The terminal will ask you to create an 'account', this can be something as simple as your first name, or something similar to your university username, it's up to you!
 + You'll need to create a password, make this something easy for you to remember and difficult for anyone else to guess, we'll use the password whenever administrative privileges are needed (e.g. installing programs or modifying permissions)
+     + Important note! Passwords do not appear when you type them in like in a Windows environment (e.g. Password123 won't appear as ***********), it will remain blank, if you make a mistake just hit the backspace more times than you've typed letters and you'll be fine!
 + Get ready to make yourself a cup of tea, because the next step will take a while
 + Run the following commands (you'll be asked for your newly created password, and part way through the screen might change and a yes/no option will pop up, select 'yes')
 `sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove && sudo apt clean`
@@ -71,31 +72,8 @@ A trickier example is the University of Melbourne's OneDrive folders, which are 
 
 **Note:** You may notice that for both commands, the shortcuts were both lowercase, this is just a time saver. Unix commands are case sensitive, and you could have 3 folders called "Alistair", "alistair", and "ALISTAIR". Sticking to a consistent theme for your folders and files will help you navigate your Unix environment.
 
-# Install a package manager
-If you're not planning on using your local instance for anything but connecting to the cloud, you can skip this step. However it is useful to having 
+# What now?
+Now you're ready to use your Unix terminal! If you're now planning on connecting to one of the various cloud systems you can jump right ahead to that
+Or, if you want to install a package manager locally (this helps you to install any of the bioinformatics tools you may want to use on your own computer, not in the cloud), then you can do that too.
 
-## Homebrew/Linuxbrew
-
-sudo apt-get install build-essential curl file git
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
-test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile
-echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile
-
-
-echo "export HOMEBREW_AUTO_UPDATE_SECS=1440" >> ~/.bashrc
-
-brew install hello
-
-brew install python
-
-
-
-- key settings
-chmod u=rw,go-rwx ~/mykey.pem
-
-- remove old temp files
-sudo find /tmp -type f -atime +10 -delete
+Guides for each of these steps will hopefully appear soon
