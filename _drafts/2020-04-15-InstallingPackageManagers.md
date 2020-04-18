@@ -30,7 +30,7 @@ However it is useful to have some of the same tools available on your local mach
 ## Homebrew/Linuxbrew
 My personal preference is Homebrew/Linuxbrew (Mac = Homebrew, Unix = Linuxbrew), but really this is due to old habits, it's the package manager I started with, and therefore I've stuck with it. If you're willing to put in a bit of extra work for greater flexibility than Conda is perhaps the better way to go.
 
-Brew is the simplest level of package manager, you 'brew' your programs, it installs everything to the same folder (/home/.linuxbrew/), and will always keep itself up to date. Additionally, you can easily update all your various installed packages to the latest versions. The trick is, you may not always want the latest version! This is because some software may be designed to work with a particular version of a dependency, and brew will automatically update everything rendering this software no longer functional. 
+Brew is the simplest level of package manager, you 'brew' your programs, it installs everything to the same folder (/home/linuxbrew/), and will always keep itself up to date. Additionally, you can easily update all your various installed packages to the latest versions. The trick is, you may not always want the latest version! This is because some software may be designed to work with a particular version of a dependency, and brew will automatically update everything rendering this software no longer functional. 
 
 sudo apt-get install build-essential curl file git
 
