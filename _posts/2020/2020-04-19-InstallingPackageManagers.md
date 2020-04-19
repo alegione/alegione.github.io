@@ -13,7 +13,7 @@ tags:
   - Unix
   - education
   - coding
-  
+
 published: true
 comments: true
 ---
@@ -130,7 +130,7 @@ Now to access all the fun bioinformatics programs, you'll need to point Conda in
 `conda config --add channels bioconda`
 `conda config --add channels conda-forge`
 
-Now you can install tools by simply typing
+Now you can install tools by simply typing the below and entering 'y' when prompted
 `conda install SOMETOOL`
 
 Conda will assess the dependencies required and install the tools. But the best use of Conda is creating your environments. Lets say you're running a project that needs to trim some fastq reads, de novo assemble a genome, and then annotate it.
@@ -142,7 +142,10 @@ Then you just have to activate the environment by running
 
 `conda activate denovo`
 
-You'll notice your (base) next to your prompt now says (denovo) and you'll have access to the installed tools. All your folders are still in the same place, just where the command line is looking for programs has changed. If you want to return to your base environment, just run
+You'll notice your (base) next to your prompt now says (denovo) and you'll have access to the installed tools. All your folders are still in the same place, just where the command line is looking for programs has changed.
+You can still install programs as you need them, just do so from within your activated environment.
+
+If you want to return to your base environment, just run
 
 `conda deactivate`
 
@@ -157,4 +160,4 @@ You'll notice your (base) next to your prompt now says (denovo) and you'll have 
  `conda env export --name ENVNAME > envname.yml`
 
 ## Finished!
-You're all set to install packages, and/or run environments, and do some science! Now perhaps it's time to connect yourself to the Melbourne Research Cloud, or the Spartan High Performance Computing Network
+You're all set to install packages, and/or run environments, and do some science! Now perhaps it's time to connect yourself to the Melbourne Research Cloud, or the Spartan High Performance Computing Network?
