@@ -40,6 +40,7 @@ Brew is the simplest level of package manager, you 'brew' your programs, it inst
 The installation instructions below are taken from https://brew.sh/
 
 This isn't strictly necessary, but I've often found it saves some issues down the line
+
 `sudo apt install build-essential curl file git`
 
 Next, copy the below command to the terminal and hit enter
@@ -50,8 +51,11 @@ The installation will ask you to hit ENTER shortly after starting, so don't get 
 Finally, run the final few command *one by one* to add linuxbrew to your `PATH`. The `PATH` is essentially a list of locations for your terminal to find installed programs in. Without this step, you won't easily be able to run your tools, they'll be installed but will only run if you 'point' directly at them.
 
 `test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)`
+
 `test -d /home/linuxbrew/.linuxbrew && eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)`
+
 `test -r ~/.bash_profile && echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.bash_profile`
+
 `echo "eval \$($(brew --prefix)/bin/brew shellenv)" >>~/.profile`
 
 Now test to see if the installation worked
@@ -69,18 +73,23 @@ Final suggestion; homebrew likes to check every time you try to install anything
 `echo "export HOMEBREW_AUTO_UPDATE_SECS=1800" >> ~/.bashrc`
 
 To keep homebrew up to date on your own time, use:
+
 `brew update`
 
 To update homebrew and update all the programs you've got installed:
+
 `brew update`
 
 To install a tool, it's a simple matter of typing
+
 `brew install SOMETOOL`
+
 Obviously replacing `SOMETOOL` with a program of your choice.
 
 The software homebrew can install come from a list of tools it has 'formula' for, stored in 'taps' (get it?). To make sure you have access to a huge suite of bioinformatics tools for linux, make sure to add some extra taps with the following commands
 
 `brew tap brewsci/bio`
+
 `brew tap brewsci/science`
 
 That's it, you've got your package manager set up and you're ready to install all the tools!
@@ -110,6 +119,7 @@ You're downloading both the package manager and Python 3.x, so that's one less p
 Now to install Conda; I'll stick with the Linux process, but the below instructions come from the official page and you can find the MacOS install process there: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 
 Simply run the following command
+
 `bash Miniconda3-latest-Linux-x86_64.sh`
 
 Follow the prompts (just keep the defaults/answer 'yes' unless you're keen to change things) and after it has completed set up close and re-open your terminal.
@@ -129,10 +139,13 @@ This is telling you that you're in your 'base' environment of Miniconda. Anythin
 Now to access all the fun bioinformatics programs, you'll need to point Conda in the right direction. Start by adding the Bioconda repository to your Conda installation. Run these *one by one* and *in order*.
 
 `conda config --add channels defaults`
+
 `conda config --add channels bioconda`
+
 `conda config --add channels conda-forge`
 
 Now you can install tools by simply typing the below and entering 'y' when prompted
+
 `conda install SOMETOOL`
 
 Conda will assess the dependencies required and install the tools. But the best use of Conda is creating your environments. Lets say you're running a project that needs to trim some fastq reads, de novo assemble a genome, and then annotate it.
