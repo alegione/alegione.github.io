@@ -149,7 +149,7 @@ If you want to return to your base environment, just run
 
 `conda deactivate`
 
- If you ever forget what environments you've created, they're stored in ~/.miniconda3/envs
+ If you ever forget what environments you've created, they're stored in `~/miniconda3/envs/`
 
  Once you've finished your analysis and are writing your manuscript, you can export your environment for others to use by simply running either
 
