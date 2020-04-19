@@ -38,4 +38,4 @@ the [Asia Pacific Centre for Animal Health](https://fvas.unimelb.edu.au/research
      * Bash scripting for pipelines
      * Analysis using R
      * Shiny apps
-     * Python tools for bioinfomatics
+     * Python tools for bioinformatics
