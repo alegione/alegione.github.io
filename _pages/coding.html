@@ -2,16 +2,20 @@
 layout: archive
 title: "Coding"
 description: Coding from Alistair Legione
-permalink: /Coding/
 author_profile: true
 ---
 
-{% if author.github %}
-  You can also find my repositories on <u><a href="{{author.github}}">Github page</a>.</u>
-{% endif %}
-
 {% include base_path %}
 
-{% for post in site.coding reversed %}
+{% for post in site.coding %}
+  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+
+{% include archive-single.html %}
+{% endfor %}
+
   {% include archive-single.html %}
 {% endfor %}

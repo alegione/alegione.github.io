@@ -160,7 +160,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!–break–>"
 incremental: false
 
 # Markdown Processing
@@ -196,6 +196,17 @@ defaults:
   - scope:
       path: ""
       type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _coding
+  - scope:
+      path: ""
+      type: coding
     values:
       layout: single
       author_profile: true

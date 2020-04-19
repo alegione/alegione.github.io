@@ -23,6 +23,8 @@ Installing programs on a Unix machine/terminal can be a dark and scary place, pa
 Package managers are designed to make this process simple, by installing all dependencies that you may need when you want to install software X. Aah, much better.
 But there are choices to make when you are picking your package manager! So I'm going to provide some information and brief instructions for two of these choices: Homebrew and Conda.
 
+<!–break–>
+
 # Installing a package manager
 If you're not planning on using your local instance for anything except connecting to the cloud, you can potentially skip installing a package manager as most basic programs can be installed with the command you used to update/upgrade your Unix instance. For example, if you wanted to install the text editor Vim, you could simply write:
 
