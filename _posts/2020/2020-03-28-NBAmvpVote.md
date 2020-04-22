@@ -10,9 +10,10 @@ comments: true
 header:
   teaser: /images/NBAvotes-plot.jpeg
 ---
+
 Why do we do this to ourselves every year? The NBA plays for several months, 82 games for each team, and after All Star break comes and goes, everyone starts discussions about who will win the end of season awards. This inevitably leads to the *narrative* playing out. This year is no different. Giannis Antetokounmpo has been the best player for the whole year, everyone (humans and statistics) has agreed on this point up until a few weeks ago when, perhaps bored with same story for too many months, LeBron was touted as a competitor. Then on every talk show and podcast, media members start discussing the possibility. The league having to suspend/postpone due to the global pandemic put a dampener on these discussions to some degree, but if the season had continued momentum would have only grown.
 
-<!–break–>
+
 
 ## Does the media get caught up in their own narrative?
 The MVP is voted on by 100 independent media members. Do they watch every game? Unlikely. Some may, but who could ever expect someone to properly absorb 1230 games a season, and remember in April who the best player was in early December? Normally the race comes down to one or two players in the upper tier, maybe three players in a competitive year. When the narrative comes along, these names circulate through the media, people argue on talk shows, and they poll each other to see who is voting for who. Suddenly everyone forgets what happened in November, December, and January, and it's 'what have you done for me lately?' Does a player take November off, but excel in April? Or blitz three months but miss the last 3 weeks of the season? Good chance the former isn't going to be penalised as much as the latter. Humans are prone to recency bias, it's a known fact, and yet we leave voting on the league's top individual award until the end of the year. It seems mad.

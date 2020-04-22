@@ -18,7 +18,8 @@ comments: true
 
 ScholarPlot is an R Shiny tool for visualising and exporting your Google Scholar data. The intent of the tool was for easy export of a plot or table of your research application for things like CVs, promotion applications, or other workplace examples where you need to provide evidence of output.
 The source code for Scholarplot is available on [my github page](https://github.com/alegione/ScholarPlot)
-<!–break–>
+
+
 
 The input is your Google Scholar ID. You can find this in your Google Scholar web address.
 If you go to your scholar profile, your individual ID can be found as part of the web address.
