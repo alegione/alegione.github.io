@@ -63,7 +63,9 @@ To briefly explain the command, `sudo` elevates privileges so that we can instal
 If you're used to using Windows Operating Systems, the literal black box of the command line can be quite daunting. But think of your initial starting point on the command line as being inside your 'User' directory in Windows (called a 'Home' directory in Ubuntu). The folders 'above' are equivalent to the C drive, with the various system folders you won't need to worry too much about. In the initial terminal, the Home folder is shortened to ~ for simplicity, but the actual path is `/home/YOURNAME/`. You could make new folders and generate files in this home directory, but the easiest thing to do is to create shortcuts to the Windows directories you're already using. Technically the Linux file system is possible to find from inside the Windows Explorer graphical interface, but it's recommended not to play around with it lest you break your installation. The shortcut command for Unix is `ln`
 If you want to create a shortcut to your Documents folder in Windows, you'd run something similar to the following (dependant on where your Documents folder is)
 
-`ln -s /mnt/c/Users/YOURNAME/Documents documents`
+```terminal
+ln -s /mnt/c/Users/YOURNAME/Documents documents
+```
 
 `/mnt/` is the directory for your Windows drives, your WSL Ubuntu will be able to recognise most drives, but it unfortunately falls short with some extension MicroSD situations on tablets.
 `-s` is the option to create a symbolic link, which is akin to a 'shortcut' in Windows
@@ -72,7 +74,9 @@ The link we've created is in your home directory, and therefore the path ~/docum
 
 A trickier example is the University of Melbourne's OneDrive folders, which are called 'OneDrive - The University of Melbourne' by default. Unix considers spaces as separators between commands, so OneDrive - The University of Melbourne, is six separate inputs to the command line: "OneDrive", "-", "The", "University", "of", "Melbourne". To get around this issues, quotation marks are your friend. Text inside quotation marks is read as a single long string, so our command would be:
 
-`ln -s "/mnt/c/Users/YOURNAME/OneDrive - The University of Melbourne" onedrive`
+```terminal
+ln -s "/mnt/c/Users/YOURNAME/OneDrive - The University of Melbourne" onedrive
+```
 
 **Note:** You may notice that for both commands, the shortcuts were both lowercase, this is just a time saver. Unix commands are case sensitive, and you could have 3 folders called "Alistair", "alistair", and "ALISTAIR". Sticking to a consistent theme for your folders and files will help you navigate your Unix environment.
 
@@ -81,6 +85,8 @@ Now you're ready to use your Unix terminal! If you're now planning on connecting
 Or, if you want to install a package manager locally (this helps you to install any of the bioinformatics tools you may want to use on your own computer, not in the cloud), then you can do that too.
 
 Guides for each of these steps will hopefully appear soon
+
+You could start by installing a package manager by following [this guide](https://alegione.github.io/2020/InstallingAPackageManager)
 
 If you have any questions or suggestions, feel free to use the comment box below
 
