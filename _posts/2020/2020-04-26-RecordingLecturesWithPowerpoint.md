@@ -46,7 +46,7 @@ If you select 'Audio Playback', you should see one of the options is to 'trim au
 
 ![Audio Trimming in PowerPoint](/images/PPT-AudioTrim.jpg)
 
-##Adding additional sound files to your slides
+## Adding additional sound files to your slides
 If you've recorded a few lectures, you may have found that after carefully explaining your slide for 3 minutes, you end up making an error. Now whilst you have learnt how to trim that last few seconds out where you've made a mistake, we've also learnt that if you go back to the recording window, it'll overwrite your recording. So what do we do?
 
 We can actually record sound separately to the recording window and embed it into the slide, as long as you don't need a pointer for it, following these steps
