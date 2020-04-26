@@ -39,7 +39,7 @@ To record yourself, click on the 'record' button. You'll get a 3-2-1 countdown, 
 1. If you 'stop' the recording, rather than pause it, pressing record again will overwrite what was previously recorded. If you want to avoid this, follow the next section on 'recording addition audio'
 2. If you plan on using the laser pointer for a slide, activate it _before_ you start recording
 
-##Editing your recorded audio
+## Editing your recorded audio
 Once you've recorded audio for a slide you will see a small speaker icon in the bottom right corner of your slide. If you click on this speaker, you'll see two new Ribbon menu appear: 'Audio Format' and 'Audio Playback'.
 
 If you select 'Audio Playback', you should see one of the options is to 'trim audio'. Selecting this option brings up the following pop-up
