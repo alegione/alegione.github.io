@@ -1,6 +1,6 @@
 ---
 title:  "Shiny - ScholarPlot"
-permalink: "/2020/ScholarPlot"
+permalink: "/Coding/ScholarPlot"
 header:
   teaser: "/images/ScholarPlot-HengLi.jpg"
 categories:
@@ -14,6 +14,7 @@ tags:
   - Citations
 published: true
 comments: true
+layout: single
 ---
 
 ScholarPlot is an R Shiny tool for visualising and exporting your Google Scholar data. The intent of the tool was for easy export of a plot or table of your research application for things like CVs, promotion applications, or other workplace examples where you need to provide evidence of output.
