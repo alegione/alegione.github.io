@@ -1,13 +1,13 @@
 ---
-title:  "Recording Lectures with Microsoft PowerPoint"
-permalink: "/2020/RecordingLecturesWithPowerpoint"
+title: Recording Lectures with Microsoft PowerPoint
+permalink: /2020/RecordingLecturesWithPowerpoint
 published: true
 comments: true
 tags:
-  - "University of Melbourne"
+  - University of Melbourne
   - Education
-  - "Microsoft Office"
-  - "Pedagogy"
+  - Microsoft Office
+  - Pedagogy
 ---
 
 The aim of this piece is to introduce you to recording audio, and if needed video, through Microsoft PowerPoint to suitably record lectures for teaching.
@@ -23,6 +23,11 @@ Whilst you can activate the record functions in PowerPoint via a few different r
 
 **GIF TO ADD**
 
+1. Click on 'File'
+2. Click on 'Options'
+3. Click on 'Customise ribbon'
+4. In the right hand side column, click on the check box for 'Recording'
+
 # Basic voice recording of a lecture
 Once you've set up your slides as required (animations, transitions, etc), you can select the 'record slide' option to bring up the recording view. Primarily here you'll find your left and right arrows at either side of the slide, and up the top your record/stop/play buttons. To turn video on/off (i.e. to show your face or not), there are some buttons in the bottom right hand side of the screen.
 
@@ -37,7 +42,7 @@ To record yourself, click on the 'record' button. You'll get a 3-2-1 countdown, 
 + If you transition to the next slide, the recording will continue. The benefit of PowerPoint is that the bits recorded will remain with each slide Individually. So if you transition, then make a mistake on the new slide, your previous slide's recording will be saved and you can just redo the current slide.
 
 **Note:**
-1. If you 'stop' the recording, rather than pause it, pressing record again will overwrite what was previously recorded. If you want to avoid this, follow the next section on 'recording addition audio'
+1. If you 'stop' the recording, rather than pause it, pressing record again will overwrite what was previously recorded. If you want to avoid this, follow the next section on ['Adding additional sound files to your slides'](#adding-additional-sound-files-to-your-slides)
 2. If you plan on using the laser pointer for a slide, activate it _before_ you start recording
 
 ## Editing your recorded audio
