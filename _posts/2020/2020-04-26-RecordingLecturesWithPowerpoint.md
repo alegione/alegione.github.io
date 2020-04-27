@@ -31,7 +31,7 @@ Whilst you can activate the record functions in PowerPoint via a few different r
 # Basic voice recording of a lecture
 Once you've set up your slides as required (animations, transitions, etc), you can select the 'record slide' option to bring up the recording view. Primarily here you'll find your left and right arrows at either side of the slide, and up the top your record/stop/play buttons. To turn video on/off (i.e. to show your face or not), there are some buttons in the bottom right hand side of the screen.
 
-**GIF TO ADD**
+![Example of recording a lecture](/images/PPT-RecordingSlides.gif)
 
 To record yourself, click on the 'record' button. You'll get a 3-2-1 countdown, and the recording will start after that.
 + To activate an animation, click on the right/next arrow.
