@@ -21,7 +21,7 @@ I'm going to start off with the basics, and then add in a few more complex examp
 # Activating the Record Ribbon table
 Whilst you can activate the record functions in PowerPoint via a few different routes, if you're going to be recording whole lectures, or making videos, then the best thing to do is activate the recording ribbon.
 
-**GIF TO ADD**
+![Enabling the Recording Ribbon](/images/PPT-RecordingRibbon.gif)
 
 1. Click on 'File'
 2. Click on 'Options'
