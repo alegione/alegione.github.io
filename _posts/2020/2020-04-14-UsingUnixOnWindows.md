@@ -1,6 +1,7 @@
 ---
 title:  "Computational Biology 101: Getting a Unix command line on Windows 10"
 permalink: "/2020/UsingUnixOnWindows"
+redirect_from: "/2020/04/15/UsingUnixOnWindows"
 header:
   teaser: "images/commandline-example-helloworld.jpg"
 tags:
