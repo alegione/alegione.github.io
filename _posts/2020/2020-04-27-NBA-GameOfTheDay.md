@@ -14,11 +14,14 @@ published: true
 comments: true
 ---
 
-A shiny web application that ranks daily NBA games for your viewing pleasure
+A shiny web application that ranks daily NBA games for your viewing pleasure.
 
 This application is primarily designed for those of us outside the USA, who have to watch NBA games on delay due to time zone differences.
 This app will show you, based on a formula, which game is going to me most worth your time investment.
 Particularly useful if you only have time to watch one game of the night, and you don't want to waste it on the 40 point blowout
+
+
+
 
 Currently in **_alpha_** form, please feel free to submit comments, suggestions, or pull requests
 
