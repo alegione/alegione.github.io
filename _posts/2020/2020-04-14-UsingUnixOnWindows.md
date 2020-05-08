@@ -15,7 +15,7 @@ published: true
 comments: true
 ---
 
-So you want to use the command line to do some computational biology? Or perhaps some *\*gulp*\* bioinformatics? Well lets get you started in as simple a way as possible. This guide is intended primarily for University of Melbourne staff and students with access to the Melbourne Research Cloud, Spartan High Performance Computer, and MediaFlux data server, but up until the latter stages it should be suitable for most command line starters
+So you want to use the command line to do some computational biology? Or perhaps some _\*gulp\*_ bioinformatics? Well lets get you started in as simple a way as possible. This guide is intended primarily for University of Melbourne staff and students with access to the Melbourne Research Cloud, Spartan High Performance Computer, and MediaFlux data server, but up until the latter stages it should be suitable for most command line starters
 
 
 
