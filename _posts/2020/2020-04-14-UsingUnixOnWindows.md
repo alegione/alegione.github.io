@@ -1,16 +1,16 @@
 ---
-title:  "Computational Biology 101: Getting a Unix command line on Windows 10"
-permalink: "/2020/UsingUnixOnWindows"
-redirect_from: "/2020/04/15/UsingUnixOnWindows"
+title: 'Computational Biology 101: Getting a Unix command line on Windows 10'
+permalink: /2020/UsingUnixOnWindows
+redirect_from: /2020/04/15/UsingUnixOnWindows
 header:
-  teaser: "images/commandline-example-helloworld.jpg"
+  teaser: images/commandline-example-helloworld.jpg
 tags:
-  - "Computational Biology 101"
+  - Computational Biology 101
   - Unix
   - education
   - coding
-  - "University of Melbourne"
-  - "High performance computing"
+  - University of Melbourne
+  - High performance computing
 published: true
 comments: true
 ---
@@ -25,7 +25,7 @@ If you have an Apple computer, you already have a terminal interface to use, so 
 
 ## Before you started
 Some things you'll need to be ready to do:
-  + Have your work saved, you'll probably have to restart your machine at least Concierge
+  + Have your work saved, you'll probably have to restart your machine at least once
   + Be connected to the internet! We'll be downloading lots of things from here
 
 # Installing Ubuntu on a Windows 10 device
