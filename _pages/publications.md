@@ -17,7 +17,7 @@ author_profile: true
 {% endfor %}
 
 ![Citation Plot]({{site.baseurl}}/images/Legione-06-2020-CitationPlot.jpeg)
-*__Figure generated using Rshiny tool [ScholarPlot]({{site.baseurl}}/_posts/2020/2020-04-19-ScholarPlot.md)*
+*__Figure generated using Rshiny tool [ScholarPlot]({{site.baseurl}}/_posts/2020/2020-04-19-ScholarPlot.md)__*
 
 
 ## <a name="2020"></a>2020
