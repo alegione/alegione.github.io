@@ -14,9 +14,17 @@ description: Curriculum Vitae of Alistair Legione
 
 ## Work
 __2020 - current__ \\
-Lecturer in Veterinary Microbiology and Public Health at the University of Melbourne, within the Melbourne Veterinary School
-* Coordinate and teach **Animal Disease Biotechnology**
-* Lecture on DNA in **Biochemisty in Agricultural Systems**
+Lecturer in Veterinary Microbiology and Public Health at the University of Melbourne, within the Melbourne Veterinary School. Teaching primarily into the Bachelor of Science and the Bachelor of Agriculture
+## Teaching
+* Coordinate and teach **[Animal Disease Biotechnology 1](https://handbook.unimelb.edu.au/2020/subjects/ansc30001)**
+* Coordinate and teach **[Animal Disease Biotechnology 2](https://handbook.unimelb.edu.au/2020/subjects/ansc30002)**
+* Lecture on Molecular biology and biotechnology in **[Biochemisty in Agricultural Systems](https://handbook.unimelb.edu.au/2020/subjects/agri20043)**
+* Lecture on Bioinformatics in **[Microbiology in Agriculture](https://handbook.unimelb.edu.au/2020/subjects/agri20044)**
+
+## Research areas
+- Metagenomic and microbiome analysis of wildlife and livestock for pathogen surveillance and knowledge building
+- Investigations into antimicrobial resistance carriage through the use of next generation sequencing
+- Genomic analysis of pathogens of wildlife and livestock
 
 __2017 - 2019__ \\
 Postdoctoral Research fellow at The University of Melbourne, within the Melbourne Veterinary School
