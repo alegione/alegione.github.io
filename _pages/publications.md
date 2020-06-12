@@ -16,7 +16,9 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-![image](https://scholar.google.com.au/citations?hl=en&user=OmIonF8AAAAJ&view_op=list_works&sortby=pubdate#d=gsc_md_hist)
+![Citation Plot]({{site.baseurl}}/images/Legione-06-2020-CitationPlot.jpeg)
+*__Figure generated using Rshiny tool [ScholarPlot]({{site.baseurl}}/_posts/2020/2020-04-19-ScholarPlot.md)*
+
 
 ## <a name="2020"></a>2020
 * Asif K, O’Rourke D, __Legione AR__, Steer-Cope PA, Shil P, Marenda MS and Noormohammadi AH, 2020. [Development of a rapid technique for extraction of viral DNA/RNA for whole genome sequencing directly from clinical liver tissues](https://doi.org/10.1016/j.jviromet.2020.113907). Journal of Virological Methods, p.113907.
