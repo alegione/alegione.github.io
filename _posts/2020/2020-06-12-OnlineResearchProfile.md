@@ -14,6 +14,10 @@ tags:
 ---
 
 # Find an Expert
++ Go to [Themis](themis.unimelb.edu.au)
++ Go to ‘UOM Research Self Service’ -> Themis Researcher Profile -> Public Staff Profile
++ Click on 'Biography Details'
+
 
 
 # Photos and faces
