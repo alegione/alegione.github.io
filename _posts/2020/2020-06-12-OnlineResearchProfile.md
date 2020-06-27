@@ -7,7 +7,7 @@ published: true
 comments: true
 tags:
   - "University of Melbourne"
-  - education
+  - Education
   - Twitter
   - "Google Scholar"
   - "Github"
@@ -16,6 +16,8 @@ tags:
 Why do you, as a researcher, need to have an online presence? Why can't your research just speak for itself? Perhaps it can, but unless you're the lead in a niche field, the majority of us are probably left to work in obscurity. Consider this though, what have you tried to find on the internet in relation to research?  You may have read an interesting paper and you want to find out what else this researcher has worked on, maybe they're no longer at the institution listed on the paper, perhaps you want to contact them to work on something together?
 
 It’s logical to think that others have used the internet to try to find you!
+
+
 
 For researchers in Australia, or possibly any country outside of Europe and North America, we tend to be a long way from everywhere. You may only meet international (or even national) peers face to face at a conference every few years (particularly early career researchers (ECRs)). Where someone in the UK can easily take a day drip on a fast train to travel across the country to attend a two day conference, for someone in Melbourne to attend a conference in Brisbane takes significant effort and resources, let alone a conference in Europe for example. Being online is a means of expanding your network (or bubble) without having to go anywhere.
 
@@ -43,8 +45,12 @@ When choosing a photo, here are some points to consider:
 
 
 # Find an Expert
-The Univeristy of Melbourne's research profile is called ['Find an Expert'](https://findanexpert.unimelb.edu.au/). Here is where you'll find your biography, a headshot, some research keywords, your research papers and funded projects. That is, if you've kept it up to date. The method for adding information to these pages is via the University of Melbourne's 'Themis' staff page and 'Minerva Elements' research repository. Below are the steps for updating your profile via Themis
+__NOTE:__ This section is only relevant to staff at the University of Melbourne, if you're interested in reading about other social media profiles, skip to the next section on [Google Scholar](#google-scholar).
 
+The University of Melbourne's research profile is called ['Find an Expert'](https://findanexpert.unimelb.edu.au/). Here is where you'll find your biography, a headshot, some research keywords, your research papers and funded projects. That is, if you've kept it up to date. The method for adding information to these pages is via the University of Melbourne's '_Themis_' staff page and '_Minerva Elements_' research repository. Minerva is the University's way of consolidating a researcher's grant income and research output, as well as a repository for housing [post-prints](https://en.wikipedia.org/wiki/Postprint) of articles to maximise the audience that can access your work.
+
+So, if someone searches for you on the internet, your University profile is a pretty good place to include some useful information!
+Below are the steps for updating your profile via Themis
 
 + Go to [Themis](https://thmprod.themis.unimelb.edu.au/)
 + Go to ‘UOM Research Self Service’ -> Themis Researcher Profile -> Public Staff Profile
@@ -52,6 +58,7 @@ The Univeristy of Melbourne's research profile is called ['Find an Expert'](http
 
 
 
+[Update your research expertise](https://gateway.research.unimelb.edu.au/resources/systems-reporting/themis-guides/find-an-expert-profile/How-to-enter-Primary-Interest-and-update-the-Research-Expertise-Cloud_v1.2.pdf)
 # Google Scholar
 
 ## Why?
