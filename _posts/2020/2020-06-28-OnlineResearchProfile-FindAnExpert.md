@@ -25,7 +25,7 @@ __NOTE:__ This section is only relevant to staff at the University of Melbourne,
 
 The University of Melbourne's research profile is called _['Find an Expert'](https://findanexpert.unimelb.edu.au/)_. Here is where you'll find your biography, a headshot, some research keywords, your research papers and funded projects. That is, if you've kept it up to date. The method for adding information to these pages is via the University of Melbourne's '_Themis_' staff page and '_Minerva Elements_' research repository. Minerva is the University's way of consolidating a researcher's grant income and research output, as well as a repository for housing [post-prints](https://en.wikipedia.org/wiki/Postprint) of articles to maximise the audience that can access your work.
 
-![Find an expert - Alistair Legione]({{site.baseurl}}/images/FindAnExpert-example.jpg)
+![Find an expert - Alistair Legione]({{site.baseurl}}/images/FindAnExpert-example.jpg# bordered)
 
 
 So, if someone searches for you on the internet, your University profile is a pretty good place to include some useful information! So there are a few things that you can do to easily and quickly populate this pages
