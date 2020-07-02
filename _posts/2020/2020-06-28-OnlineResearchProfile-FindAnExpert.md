@@ -71,9 +71,7 @@ Every time you successfully obtain a grant, or publish a manuscript, Minerva wil
 4. Claim (or reject) any grants that belong to you
 5. 'Link' publications to grants where appropriate
 6. For each paper, select the button (indicated below with a purple arrow)
-
     ![Deposit an article example]({{site.baseurl}}/images/DepositArticle.jpg# bordered)
-
 7. For each paper, Minerva will use SherpaRomeo database to determine the rules for what you can and can't put online (example for PLoS Neglected Tropical Diseases below). Choose the file you want to upload (it may have found one for you online), select any necessary embargo periods, and upload.
 
     ![SherpaRomeo example image]({{site.baseurl}}/images/SherpaRomeoExample.jpg# bordered)
