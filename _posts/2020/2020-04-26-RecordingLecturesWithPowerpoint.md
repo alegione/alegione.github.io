@@ -21,7 +21,7 @@ I'm going to start off with the basics, and then add in a few more complex examp
 # Activating the Record Ribbon table
 Whilst you can activate the record functions in PowerPoint via a few different routes, if you're going to be recording whole lectures, or making videos, then the best thing to do is activate the recording ribbon.
 
-![Enabling the Recording Ribbon](/images/PPT-RecordingRibbon.gif)
+![Enabling the Recording Ribbon](/images/PPT-RecordingRibbon.gif# bordered)
 
 1. Click on 'File'
 2. Click on 'Options'
@@ -31,7 +31,7 @@ Whilst you can activate the record functions in PowerPoint via a few different r
 # Basic voice recording of a lecture
 Once you've set up your slides as required (animations, transitions, etc), you can select the 'record slide' option to bring up the recording view. Primarily here you'll find your left and right arrows at either side of the slide, and up the top your record/stop/play buttons. To turn video on/off (i.e. to show your face or not), there are some buttons in the bottom right hand side of the screen.
 
-![Example of recording a lecture](/images/PPT-RecordingSlides.gif)
+![Example of recording a lecture](/images/PPT-RecordingSlides.gif# bordered)
 
 To record yourself, click on the 'record' button. You'll get a 3-2-1 countdown, and the recording will start after that.
 + To activate an animation, click on the right/next arrow.
@@ -50,7 +50,7 @@ Once you've recorded audio for a slide you will see a small speaker icon in the 
 
 If you select 'Audio Playback', you should see one of the options is to 'trim audio'. Selecting this option brings up the following pop-up
 
-![Audio Trimming in PowerPoint](/images/PPT-AudioTrim.jpg)
+![Audio Trimming in PowerPoint](/images/PPT-AudioTrim.jpg# bordered)
 
 ## Adding additional sound files to your slides
 If you've recorded a few lectures, you may have found that after carefully explaining your slide for 3 minutes, you end up making an error. Now whilst you have learnt how to trim that last few seconds out where you've made a mistake, we've also learnt that if you go back to the recording window, it'll overwrite your recording. So what do we do?

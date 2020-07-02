@@ -78,4 +78,4 @@ For example, two teams above .500 will increase the total *'Game Rank'* score
 The basic features of the interface, and how to run the program are pretty simple. Select the date of the games you want to rank, adjust any parameters, and click on the button. A table will generate ranking all the games of the night. If you adjust any of the parametres from this point, a new table will be generated.
 
 
-!["Example of program interface"]({{site.baseurl}}/images/NBA-GameOfTheDay-ExampleTable.png)
+!["Example of program interface"]({{site.baseurl}}/images/NBA-GameOfTheDay-ExampleTable.png# bordered)

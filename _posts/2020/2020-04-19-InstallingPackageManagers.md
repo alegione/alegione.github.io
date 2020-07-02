@@ -39,7 +39,7 @@ My personal preference is Homebrew/Linuxbrew (Mac = Homebrew, Unix = Linuxbrew),
 
 Brew is the simplest level of package manager, you 'brew' your programs, it installs everything to the same folder (/home/linuxbrew/), and will always keep itself up to date. Additionally, you can easily update all your various installed packages to the latest versions. The trick is, you may not always want the latest version! This is because some software may be designed to work with a particular version of a dependency, and brew will automatically update everything rendering this software no longer functional. Similarly you may wish to ensure you use the same version of a tool for the length of a project so that you can be sure there is consistency in your analysis (and so when you're writing your manuscript, it's easier to say which version you used). If you want that functionality then Conda is the option you should go with. If all you're looking for is a simple way to install tools, and keep the up to date, linuxbrew is the best option in my opinion.
 
-The installation instructions below are taken from https://brew.sh/
+The installation instructions below are taken from [https://brew.sh/](https://brew.sh/)
 
 This first step isn't strictly necessary, but I've often found it saves some issues down the line
 

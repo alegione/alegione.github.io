@@ -52,7 +52,7 @@ Your profile won't update immediately, it normally takes several days before the
 ## Updating your research expertise
 Find an Expert generates a word cloud of your research expertise, which can provide a nice snapshot of your research interests. However you have some say about what topics appear in this word cloud, as well as what your 'primary research area' is defined as.
 
-![research expertise example]({{site.baseurl}}/images/ResearchExpertise.jpg)
+![research expertise example]({{site.baseurl}}/images/ResearchExpertise.jpg# bordered)
 
 1. In your Public Staff Profile, navigate to the 'Research Expertise' link
 2. On this page you can enter the title of your primary research field (use your broad keywords) into the 'Research Interest (free text)
@@ -72,11 +72,11 @@ Every time you successfully obtain a grant, or publish a manuscript, Minerva wil
 5. 'Link' publications to grants where appropriate
 6. For each paper, select the button (indicated below with a purple arrow)
 
-  ![Deposit an article example]({{site.baseurl}}/images/DepositArticle.jpg)
+  ![Deposit an article example]({{site.baseurl}}/images/DepositArticle.jpg# bordered)
 
 7. For each paper, Minerva will use SherpaRomeo database to determine the rules for what you can and can't put online (example for PLoS Neglected Tropical Diseases below). Choose the file you want to upload (it may have found one for you online), select any necessary embargo periods, and upload.
 
-  ![SherpaRomeo example image]({{site.baseurl}}/images/SherpaRomeoExample.jpg)
+  ![SherpaRomeo example image]({{site.baseurl}}/images/SherpaRomeoExample.jpg# bordered)
 
 
 You should now have a near complete Research Profile. Have a click through the other navigation options in both Minerva and Themis and update anything you can to complete your profile as much as possible.

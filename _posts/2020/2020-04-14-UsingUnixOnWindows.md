@@ -32,10 +32,10 @@ Some things you'll need to be ready to do:
 ## Enabling WSL on your device/computer
 Adding Ubuntu capabilities to your Windows 10 computer is a relatively painless process (note Windows S, on some modern Windows tablets, will not work).
 1. Open the Start menu and search 'Windows Features', select the option displayed below
-![Image of Windows Features Search Result]({{site.baseurl}}/images/WindowsFeaturesSearch.jpg)
+![Image of Windows Features Search Result]({{site.baseurl}}/images/WindowsFeaturesSearch.jpg# bordered)
 
 2. From the long list of available features, select 'Windows Subsystem for Linux' right near the bottom
-![Image of WSL check]({{site.baseurl}}/images/WSLcheck.jpg)
+![Image of WSL check]({{site.baseurl}}/images/WSLcheck.jpg# bordered)
 
 3. Restart your computer when requested.
 

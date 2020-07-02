@@ -59,7 +59,7 @@ Whilst IGV isn't a perfect system, it covers the basics. What it misses are thos
 ## The Results
 I must admit that I was somewhat surprised by the IGV results. LeBron was indeed on his way to catching Giannis looking at the game tracking (Figure below), particularly if injury meant Giannis would miss some of the upcoming games. Maybe the media narrative wasn't so bias afterall? Though I think the media was focussing on "have we been sleeping on LeBron", moreso than "if LeBron plays 10 more games than Giannis he should win". Really the latter is what is supported by the IGV projection, rather than votes per game played. On average LeBron was polling ~3.5 votes per game (v/gm), so he would have needed 5 games to catch up to Giannis (who was polling an exceptional ~3.9 v/gm!). A season long plot and final tally of the top 15 vote getters is below, with [Basketball Reference's MVP prediction model](https://www.basketball-reference.com/friv/mvp.html) and [Sekou Smith's NBA.com MVP ladder](https://www.nba.com/article/2020/03/06/kia-mvp-ladder-march-6-edition?collection=mvp-ladder) for comparison.
 
-![Plot of NBA voting simulation 2020]({{site.baseurl}}/images/NBAvotes-plot.jpeg)
+![Plot of NBA voting simulation 2020]({{site.baseurl}}/images/NBAvotes-plot.jpeg# bordered)
 *__Figure 1.__ Cumulative totals of NBA votes per game throughout the 2019-2020 season. Lines are coloured based on end of season team using the R package "[teamcolors](https://github.com/beanumber/teamcolors)"*
 
 *__Table 1.__ Top 15 players based on votes recieved per game, compared to rankings from Basketball Reference and NBA.com. Numbers in brackets are vote ranking for players outside top 15*

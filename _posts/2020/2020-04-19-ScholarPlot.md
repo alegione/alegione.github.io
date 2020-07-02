@@ -24,7 +24,7 @@ The source code for Scholarplot is available on [my github page](https://github.
 The input is your Google Scholar ID. You can find this in your Google Scholar web address.
 If you go to your scholar profile, your individual ID can be found as part of the web address.
 
-![Example URL](/images/ScholarPlot-ExampleURL.jpg)
+![Example URL](/images/ScholarPlot-ExampleURL.jpg# bordered)
 
 In the above example, my user ID is highlighted (i.e. *OmIonF8AAAAJ*).
 
@@ -32,7 +32,7 @@ The current primary output is a plot of papers per year and citations per year, 
 
 Below is an example of the ScholarPlot output of bioinformatics wizard Heng Li (Assistant professor of Biostatistics and Computational Biology at Dana-Farber and Harvard Medical School).
 
-![Heng Li ScholarPlot Example](/images/ScholarPlot-HengLi.jpg)
+![Heng Li ScholarPlot Example](/images/ScholarPlot-HengLi.jpg# bordered)
 
 Plots and tables can be exported separately. Years of publication can be adjusted for the plot, these don't as of yet affect the table output.
 
