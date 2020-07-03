@@ -23,10 +23,13 @@ _This is Part 4 in the 'Building your Online Research Profile', to find all post
 ## What you need to start with
 
 
+## Signing up for Twitter
+
+
 ## Picking a good username
 
 
-## Setting up your biography
+## Setting up your profile page
 
 
 ## Who should you 'follow'?
