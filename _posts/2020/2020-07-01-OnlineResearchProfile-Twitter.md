@@ -35,10 +35,26 @@ _This is Part 4 in the 'Building your Online Research Profile', to find all post
 ## How should you use it?
 
 
+## Tweets, threads, hashtags, and mentions
+**Tweets:**
+
+
+**Threads:**
+
+
+**Hashtags**
+
+
+**Mentions:**
+
+
 ## Likes and Retweets
 
 
-## Quote tweets and comments
+## Quote tweets and replies
+
+
+## Lists and bookmarks
 
 
 ## Muting, Blocking, and Reporting
