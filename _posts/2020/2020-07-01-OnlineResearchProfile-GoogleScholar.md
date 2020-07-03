@@ -43,8 +43,17 @@ Not much! If you have a Gmail account you're almost done. The following will hel
 6. Finally you'll have the option to update your profile automatically, or set it so that Google will send you an email to review new papers of yours that it finds. Again if you have an uncommon name, stick with the automatic updates.
 	![Keep your profile up to date]({{site.baseurl}}/image/GoogleScholarUpdates.png# bordered)
     
+Your profile is now almost complete, you just need to add your photo (simply click on the empty profile image), and tidy up any duplicate papers. 
+	
 ## Tidying up your Google Scholar profile
-If you've ever published a pre-print, using a service such as BioRxiv for example, then your paper will appear in your Google Scholar profile in both forms (pre-print and final publication). To merge the citations into one for metric purposes, you can mere 
 
+If you've ever published a pre-print, using a service such as BioRxiv for example, then your paper will appear in your Google Scholar profile in both forms (pre-print and final publication). To merge the citations into one for metric purposes, you can easily select the appropriate papers by clicking on the checkbox on the left hand side of each entry. Following this, click on the 'merge' option that appears in the top toolbar, and select which of the versions you'd like to retain in your profile.
+
+## Using your Google Scholar Profile
+Scholar profiles are a great succinct way of finding your current metrics, including citations broken down by year, h index (the number (_h_) of papers with at least _h_ citations), and i10 index (the number of papers with over 10 citations). You can also sort your research output by year of publication or number of citations, and easily select papers and export the citations in various formats.
+
+A few days after you've set up your profile, check back in and you'll notice that Google is suggesting 'Co-authors', which it populates by linking the papers you've claimed with those who also have Google Scholar profiles attached to those same works.
+
+If you want to utilise your Google Scholar profile even further, why not try out my RShiny tool [**'Scholar Plot'**](https://alegione.github.io/2020/ScholarPlot), which can be used to plot research metrics by year and produce a table of your research broken down by impact (Impact factor of journal + citations per year since publication). The plot you can find on my  [Publications](https://alegione.github.io/publications/) page was generated using this tool.
 
 _Next up in our Building Your Online Research Profile series is [Twitter]({{site.baseurl}}/2020/OnlineResearchPresence-Twitter)_
