@@ -36,7 +36,7 @@ Not much! If you have a Gmail account you're almost done. The following will hel
 5. You'll be presented with all the papers Google thinks you've published, based on your name. Go through the list and remove any papers that don't belong to you, if you have an uncommon name this should be pretty straight forward
 	![Claiming papers for your scholar profile]({{site.baseurl}}/images/GoogleScholarPaperClaim.png# bordered)
 6. Finally you'll have the option to update your profile automatically, or set it so that Google will send you an email to review new papers of yours that it finds. Again if you have an uncommon name, stick with the automatic updates.
-	![Keep your profile up to date]({{site.baseurl}}/image/GoogleScholarUpdates.png# bordered)
+	![Keep your profile up to date]({{site.baseurl}}/images/GoogleScholarUpdates.png# bordered)
     
 Your profile is now almost complete, you just need to add your photo (simply click on the empty profile image), and tidy up any duplicate papers. 
 	
