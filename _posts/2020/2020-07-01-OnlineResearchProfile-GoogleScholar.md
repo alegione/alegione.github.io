@@ -18,7 +18,6 @@ tags:
 _This is Part 3 in the 'Building your Online Research Profile', to find all posts in this series, [click here]({{site.baseurl}}/tags/#building-your-online-research-profile)_
 
 The goal of improving your online profile is that when people search your name, you'll appear near the top (or ideally at the top) of the search results. I'd say globally the majority of people at time of writing will be searching using Google, so it makes sense to set up your Google Scholar profile too. Since lots of people search for papers through this service nowadays too, having a scholar page has the added benefit of adding a 'clickable' link to your name when your papers are searched. This link takes them through to your profile page where they can find even more of your papers! How convenient.
-l
 
 
 
