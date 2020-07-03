@@ -12,7 +12,9 @@ tags:
   - Guide
   - Google Scholar
 ---
-Twitter is the social media hub of choice for a vast array of academics. It's a great place to share your latest work, ask questions of experts, communicate your research field to the general public and engage in the general discourse of your field. It can potentially be a hive of politically charged vitriol too, but we can hopefully avoid swimming in those circles more often than not. This guide will take you through the basics of setting up a profile, and 
+Twitter is the social media hub of choice for a vast array of academics. It's a great place to share your latest work, ask questions of experts, communicate your research field to the general public and engage in the general discourse of your community. It can potentially be a hive of politically charged vitriol too, but we can hopefully avoid swimming in those circles more often than not.
+
+This guide will take you through the basics of setting up a profile, and working through the basics of a 'tweet', your 'timeline', your 'followers', 'likes' and 'retweets'. There is a decent amount of platform specific terminilogy (much of it general parlance for social media these days), but we'll get through it together.
 
 
 
@@ -37,3 +39,6 @@ _This is Part 4 in the 'Building your Online Research Profile', to find all post
 
 
 ## Quote tweets and comments
+
+
+## Muting, Blocking, and Reporting
