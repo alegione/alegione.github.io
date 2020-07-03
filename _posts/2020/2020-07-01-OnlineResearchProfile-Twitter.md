@@ -62,9 +62,15 @@ _This is Part 4 in the 'Building your Online Research Profile', to find all post
 
 
 ## Quote tweets and replies
+**Quote tweets: **
 
+
+**Replies:**
 
 ## Lists and bookmarks
+**Lists:**
 
+
+**Bookmarks**
 
 ## Muting, Blocking, and Reporting
