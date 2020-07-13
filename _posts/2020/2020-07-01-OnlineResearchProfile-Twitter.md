@@ -44,7 +44,7 @@ Some tips for your handle:
 + Don't make it overly lengthy: tweets can only be 280 characters and you don't want 20 characters being used up by your name if someone wants to mention you
 + If you can get your name, or close to it, then it's the best option as it's easier for people to search
 + Make it something that's easy to say out loud or read on a slide
-	* Avoid substituting letters for numbers if it will mean someone reading you name in print form won't be able to simply interpret it (e.g. @5imon or @0liver)
+	+ Avoid substituting letters for numbers if it will mean someone reading you name in print form won't be able to simply interpret it (e.g. @5imon or @0liver)
 + If you can only make the start similar to name, do that at least, as it increases the odds of appearing dynmaically as someone is typing in your name (e.g. @AlistairTheDoctor versus @DoctorAlistair)
 
 ## Setting up your profile page
