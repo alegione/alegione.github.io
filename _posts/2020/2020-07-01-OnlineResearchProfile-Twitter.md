@@ -88,7 +88,7 @@ You can do the following:
 
 
 ## Quote tweets and replies
-**Quote tweets: **
+**Quote tweets:**
 
 
 **Replies:**
