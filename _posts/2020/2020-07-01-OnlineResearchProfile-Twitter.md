@@ -45,7 +45,7 @@ __Some tips for your handle:__
 + If you can get your name, or close to it, then it's the best option as it's easier for people to search
 + Make it something that's easy to say out loud or read on a slide
 	* Avoid substituting letters for numbers if it will mean someone reading you name in print form won't be able to simply interpret it (e.g. @5imon or @0liver)
-+ If you can only make the start similar to name, do that at least, as it increases the odds of appearing dynamically as someone is typing in your name (e.g. @AlistairTheDoctor versus @DoctorAlistair)
++ If you can only make the start of your handle similar to your name, do that at least, as it increases the odds of appearing dynamically as someone is typing in your name into the Twitter search bar (e.g. @AlistairTheDoctor versus @DoctorAlistair)
 
 ## Setting up your profile page
 Now that you've set up your account and username, it's time to fill out your profile page. This is a relatively painless process. Just select the little avatar icon in the menu, then on the right hand side select 'Edit profile'.
@@ -59,7 +59,7 @@ You can do the following:
 5. Include a web link, ideally this will be to your institute profile page, or somewhere that contains your contact email.
 
 ## Your timeline
-
+Your 'timeline' is made up of the tweets that you see, or more specifically the tweets of people you follow and the tweets that they retweet. Therefore if you don't like what you see you've only got yourself to blame!
 
 ## Who should you 'follow'?
 
