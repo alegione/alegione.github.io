@@ -34,7 +34,7 @@ So, if someone searches for you on the internet, your University profile is a pr
 ### What you'll need
 + A photo (specifically a headshot in .jpg format, at least 120 x 120 pixels)
 + A brief biography highlighting your research background and interests
-+ 3-4 broad keywords summarising your area of research (e.g. Microbology), and 3-4 specific key terms (e.g. the species you focus on, or your topic of interest)
++ 3-4 broad keywords summarising your area of research (e.g. Microbiology), and 3-4 specific key terms (e.g. the species you focus on, or your topic of interest)
 
 
 Below are the steps for updating your profile via Themis

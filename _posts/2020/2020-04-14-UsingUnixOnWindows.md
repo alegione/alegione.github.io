@@ -50,11 +50,13 @@ Now to install Ubuntu!
 ## Initial terminal set up
 + The terminal will ask you to create an 'account', this can be something as simple as your first name, or something similar to your university username, it's up to you!
 + You'll need to create a password, make this something easy for you to remember and difficult for anyone else to guess, we'll use the password whenever administrative privileges are needed (e.g. installing programs or modifying permissions)
-     + Important note! Passwords do not appear when you type them in like in a Windows environment (e.g. Password123 won't appear as ***********), it will remain blank, if you make a mistake just hit the backspace more times than you've typed letters and you'll be fine!
+     + Important note! Passwords do not appear when you type them in like in a Windows environment (e.g. Password123 won't appear as ***********), it will remain blank, if you make a mistake just hit the backspace more times than you've typed letters and you'll be fine to just start again!
 + Get ready to make yourself a cup of tea, because the next step will take a while
 + Run the following commands (you'll be asked for your newly created password, and part way through the screen might change and a yes/no option will pop up, select 'yes')
 
-`sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove && sudo apt clean`
+```terminal
+sudo apt update && sudo apt full-upgrade -y && sudo apt autoremove && sudo apt clean
+```
 
 To briefly explain the command, `sudo` elevates privileges so that we can install things, `apt` is the Ubuntu 'store' much like Google play or the Apple store, the `update` command updates the list of all the current software available and where to download it, and the `full-upgrade` command will take any software you've presently got installed and bump it up to the latest version. The addition of the `-y` is what we call an 'option', in this case it's telling the installer to automatically agree (that is, say yes) to upgrading any software found to be out of date. Finally the `autoremove` and `clean` commands will remove any unnecessary programs or downloaded installers from your system afterwards.
 
@@ -94,5 +96,7 @@ If you have any questions or suggestions, feel free to use the comment box below
 **Update (15/04/2020):**
 ## A few common questions answered
 - Something worth pointing out is that your normal keyboard shortcuts won't work on the command line, so Ctrl+C/Ctrl+V won't copy/paste! On the WSL, the 'Right Click' will do this for you, if you highlight text and right click, it will be copied to the clipboard (the name we give to the bit of memory your copied text goes to), then similarly if you move the cursor and right click elsewhere, it will paste from the clipboard. Be careful not to right click onto other text, as it will likely try to copy the single letter/character where your mouse cursor is!
+
 - You won't be able to just click on a location in your command line for the text cursor to move to, you have to move with the keyboard arrows. Using home/end will make it easier to jump to the start/end of a command, and holding Ctrl whilst using the arrows will jump by word, rather than by character.
+
 - Using the 'Up Arrow' key will take you back to your previous commands, so if you type something out and make a mistake, you can just use 'Up' to bring back the previous command (or 50 commands ago if you want to really go back!), then simply edit that to fix your error and re-run it again

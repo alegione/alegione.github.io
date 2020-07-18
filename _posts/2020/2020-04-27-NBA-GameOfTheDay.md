@@ -55,17 +55,14 @@ This will download and run the Shiny application locally
 
 ## Game Ranking Algorithm
 
-The aim of the ranking system is to assign value to a game based on 'watchability' or 'excitment'. This is hard for numbers alone to achieve but we've given it a go (and open it ideas). Current methodology follows the below basic formula:
+The aim of the ranking system is to assign value to a game based on 'watchability' or 'excitement'. This is hard for numbers alone to achieve but we've given it a go (and open it ideas). Current methodology follows the below basic formula:
 
 ```R
-Score = Number of overtimes x
-        'Overtime Value' (default: 3) +
+Score = 'Number of overtimes' x 'Overtime Value' (default: 3) +
         'Final Margin Value' -
         'Final game margin' +
-        Individual player highest points scored x
-        'Top Player Points Value' (default: 0.1) +
-        (Team highest points scored - 100) x
-        'Top Team Points Value' (default: 0.1)
+        Individual player highest points scored x 'Top Player Points Value' (default: 0.1) +
+        (Team highest points scored - 100) x 'Top Team Points Value' (default: 0.1)
 ```
 
 There are two final score adjustments possible, which can both be utilised at the same time.
@@ -75,7 +72,7 @@ For example, two teams above .500 will increase the total *'Game Rank'* score
 2) **Nightly Margin:** Rather than using an arbitrary value for the *'Final Margin Value'*, replace it with the maximum margin for the night.
 
 ## The Interface
-The basic features of the interface, and how to run the program are pretty simple. Select the date of the games you want to rank, adjust any parameters, and click on the button. A table will generate ranking all the games of the night. If you adjust any of the parametres from this point, a new table will be generated.
+The basic features of the interface, and how to run the program are pretty simple. Select the date of the games you want to rank, adjust any parameters, and click on the button. A table will generate ranking all the games of the night. If you adjust any of the parameters from this point, a new table will be generated.
 
 
 !["Example of program interface"]({{site.baseurl}}/images/NBA-GameOfTheDay-ExampleTable.png# bordered)

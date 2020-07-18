@@ -21,7 +21,7 @@ comments: true
 Installing programs on a Unix machine/terminal can be a dark and scary place, particularly when it comes to things like 'dependencies', that's when someone has written a bit of software (let's call it program X), and that software relies on another bit of software (program Y), but when you install X, Y second isn't automatically installed, so you have to work out how to install Y too, then program Z because Y relies on Z!! It's a nightmare.
 
 Package managers are designed to make this process simple, by installing all dependencies that you may need when you want to install software X. Aah, much better.
-But there are choices to make when you are picking your package manager! So I'm going to provide some information and brief instructions for two of these choices: Homebrew and Conda.
+But there are choices to make when you are picking your package manager! So I'm going to provide some information and brief instructions for two of these choices: [Homebrew](homebrew-linuxbrew) and [Conda](conda-miniconda).
 
 
 
@@ -35,9 +35,9 @@ sudo apt install vim
 However it is useful to have some of the same tools available on your local machine in case you need to run some quick analysis offline, so I recommend still installing a package manager on your local machine.
 
 ## Homebrew/Linuxbrew
-My personal preference is Homebrew/Linuxbrew (Mac = Homebrew, Unix = Linuxbrew), but really this is due to old habits, it's the package manager I started with, and therefore I've stuck with it. If you're willing to put in a bit of extra work for greater flexibility than Conda is perhaps the better way to go.
+My personal preference is Homebrew/Linuxbrew (Mac = Homebrew, Unix = Linuxbrew), but really this is due to old habits, it's the package manager I started with, and therefore I've stuck with it. If you're willing to put in a bit of extra work for greater flexibility than [Conda](conda-miniconda) is perhaps the better way to go.
 
-Brew is the simplest level of package manager, you 'brew' your programs, it installs everything to the same folder (/home/linuxbrew/), and will always keep itself up to date. Additionally, you can easily update all your various installed packages to the latest versions. The trick is, you may not always want the latest version! This is because some software may be designed to work with a particular version of a dependency, and brew will automatically update everything rendering this software no longer functional. Similarly you may wish to ensure you use the same version of a tool for the length of a project so that you can be sure there is consistency in your analysis (and so when you're writing your manuscript, it's easier to say which version you used). If you want that functionality then Conda is the option you should go with. If all you're looking for is a simple way to install tools, and keep the up to date, linuxbrew is the best option in my opinion.
+Brew is the simplest level of package manager, you 'brew' your programs, it installs everything to the same folder (`/home/linuxbrew/`), and will always keep itself up to date. Additionally, you can easily update all your various installed packages to the latest versions. The trick is, you may not always want the latest version! This is because some software may be designed to work with a particular version of a dependency, and brew will automatically update everything rendering this software no longer functional. Similarly you may wish to ensure you use the same version of a tool for the length of a project so that you can be sure there is consistency in your analysis (and so when you're writing your manuscript, it's easier to say which version you used). If you want that functionality then Conda is the option you should go with. If all you're looking for is a simple way to install tools, and keep the up to date, Linuxbrew is the best option in my opinion.
 
 The installation instructions below are taken from [https://brew.sh/](https://brew.sh/)
 
@@ -55,7 +55,7 @@ Next, copy the below command to the terminal and hit ENTER
 
 The installation will ask you to hit ENTER shortly after starting, so don't get up just yet.
 
-Finally, run the final few command *one by one* to add linuxbrew to your `PATH`. The `PATH` is essentially a list of locations for your terminal to find installed programs in. Without this step, you won't easily be able to run your tools, they'll be installed but will only run if you 'point' directly at them.
+Finally, run the final few command *one by one* to add Linuxbrew to your `PATH`. The `PATH` is essentially a list of locations for your terminal to find installed programs in. Without this step, you won't easily be able to run your tools, they'll be installed but will only run if you 'point' directly at them.
 
 ```terminal
 test -d ~/.linuxbrew && eval $(~/.linuxbrew/bin/brew shellenv)
@@ -70,7 +70,7 @@ Now test to see if the installation worked
 brew install hello
 ```
 
-Hopefully you'll not encounter any errors; regardless of whether you do it never hurts to run the following to check if linuxbrew identifies any issues with your installation
+Hopefully you'll not encounter any errors; regardless of whether you do it never hurts to run the following to check if Linuxbrew identifies any issues with your installation
 
 ```terminal
 brew doctor
@@ -126,7 +126,7 @@ Conda, or more correctly Miniconda, is a package manager with an immense amount 
 You can download Miniconda by [clicking here](https://docs.conda.io/en/latest/miniconda.html)
 There are several choices available, 32 or 64 bit, and Python 2.7 and 3.x (depending on the current version of Python 3). If you're unsure what one to pick then the likely answer is the latter of both (64/3.x), as the other options are 'legacy'.
 
-Copy the link location for this version and type the following commands
+Copy the link location for this version and type the following commands (replacing LINK with the actual link!)
 
 ```terminal
 wget LINK
@@ -217,7 +217,7 @@ Once you've finished your analysis and are writing your manuscript, you can expo
 conda create --clone ENVNAME --name NEWENV
 ```
 
- to clone the whole environment, or simply create a 'YAML' text file, which tells conda what to install, by running the following (replacying envname with whatever you'd like to call your environment)
+ to clone the whole environment, or simply create a 'YAML' text file, which tells conda what to install, by running the following (replacing envname with whatever you'd like to call your environment)
 
  ```terminal
 conda env export --name ENVNAME > envname.yml
