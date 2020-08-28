@@ -81,7 +81,7 @@ This command will output solutions to any errors that may have crept in during t
 Final suggestion; homebrew likes to check every time you try to install anything that you have the latest version of homebrew installed too. This is great, but can be annoying if you're installing several things in the same time period! Run the below command to keep homebrew from checking for updates of itself for a half hour.
 
 ```terminal
-echo "export HOMEBREW_AUTO_UPDATE_SECS=1800" >> ~/.bashrc`
+echo "export HOMEBREW_AUTO_UPDATE_SECS=1800" >> ~/.bashrc
 ```
 
 To keep homebrew up to date on your own time, use:
@@ -93,7 +93,7 @@ brew update
 To update homebrew and update all the programs you've got installed:
 
 ```terminal
-brew update
+brew upgrade
 ```
 
 To install a tool, it's a simple matter of typing
