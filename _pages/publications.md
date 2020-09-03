@@ -1,9 +1,10 @@
 ---
 layout: archive
-title: "Publications"
+title: Publications
 description: Publications from Alistair Legione
 permalink: /publications/
 author_profile: true
+published: true
 ---
 
 {% if author.googlescholar %}
@@ -21,15 +22,18 @@ author_profile: true
 
 
 ## <a name="2020"></a>2020
+* Akter, R, Stent, A, Sansom, F, Gilkerson, J, Burden, C, Devlin, J^, El‐Hage, C^ and __Legione, A^__ (2020). Chlamydia psittaci: a suspected cause of reproductive loss in three Victorian horses. Australian Veterinary Journal. doi:10.1111/avj.13010
+
+
 * Asif K, O’Rourke D, __Legione AR__, Steer-Cope PA, Shil P, Marenda MS and Noormohammadi AH, 2020. [Development of a rapid technique for extraction of viral DNA/RNA for whole genome sequencing directly from clinical liver tissues](https://doi.org/10.1016/j.jviromet.2020.113907). Journal of Virological Methods, p.113907.
 
 * Akter R, __Legione A__, Sansom FM, El-Hage CM, Hartley CA, Gilkerson JR, Devlin JM. [Detection of Coxiella burnetii and equine herpesvirus 1, but not Leptospira spp. or Toxoplasma gondii, in cases of equine abortion in Australia-a 25 year retrospective study](https://doi.org/10.1371/journal.pone.0233100). Plos one. 15(5):e0233100.
 
 * Arachchige SN, Young ND, Shil PK, __Legione AR__, Condello AK, Browning GF, Wawegama NK. [Differential Response of the Chicken Trachea to Chronic Infection with Virulent Mycoplasma gallisepticum Strain Ap3AS and Vaxsafe MG (Strain ts-304): a Transcriptional Profile](https://iai.asm.org/content/88/5/e00053-20). Infection and Immunity. 88(5).
 
-## <a name="2019"></a>2019
-* Amery-Gale J, __Legione AR__, Marenda MS, Owens J, Eden PA, Konsak-Ilievski BM, Whiteley PL, Dobson EC, Browne EA, Slocombe RF, Devlin JM. 2019. [Surveillance for *Chlamydia* spp. with multilocus sequence typing analysis in wild and captive birds in Victoria, Australia](https://www.jwildlifedis.org/doi/abs/10.7589/2018-11-281). J Wildl Dis.
+* Amery-Gale J, __Legione AR__, Marenda MS, Owens J, Eden PA, Konsak-Ilievski BM, Whiteley PL, Dobson EC, Browne EA, Slocombe RF, Devlin JM. 2020. [Surveillance for *Chlamydia* spp. with multilocus sequence typing analysis in wild and captive birds in Victoria, Australia](https://www.jwildlifedis.org/doi/abs/10.7589/2018-11-281). J Wildl Dis.
 
+## <a name="2019"></a>2019
 * Hesseling J, __Legione AR__, Stevenson M, McCowan C, Pyman M, Finochio C, Nguyen D, Roic C, Thiris, O, Zhang A, Schaik G, Coombe J. 2019. [Bovine digital dermatitis in Victoria, Australia](https://doi.org/10.1111/avj.12859). Aust Vet J. 97(10):404-413.
 
 * Sutherland M,  Sarker S, Vaz PK, __Legione AR__, Devlin JM, MacWhirter PL, Whiteley PL, Raidal SR. 2019. [Disease surveillance in wild Victorian cacatuids reveals co-infection with multiple agents and detection of novel avian viruses](https://doi.org/10.1016/j.vetmic.2019.07.012). Vet Microbiol. 235:257-264.
