@@ -62,6 +62,7 @@ You can do the following:
 Your 'timeline' is made up of the tweets that you see, or more specifically the tweets of people you follow and the tweets that they retweet. Therefore if you don't like what you see you've only got yourself to blame!
 
 ## Who should you 'follow'?
+Who to follow is an interesting question.
 
 
 ## How should you use it?
