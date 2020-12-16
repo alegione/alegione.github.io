@@ -14,6 +14,8 @@ tags:
 
 In this brave new world of 2020, many of us are finding we have to use Zoom or other similar video conferencing software tools to teach classes. Then we wish to take those recordings and quickly edit them to trim, compress, and upload them to an online server. I've found the command line tool **ffmpeg** to be extremely helpful in this endeavour. Below are a few quick commands you can use to get your recording from its raw form in to a final version in just a few commands.
 
+
+
 ## removed chapters
 If you recorded via Zoom into the cloud, then every time you turn screen share on and off, the video adds a 'chapter' marker. This can affect trimming of the video file so it's best to remove chapters immediately.
 
@@ -43,7 +45,7 @@ ffmpeg --ss 01:08:08 --to 01:49:50 -i video-noChapters.mp4 -c copy video-part3.m
 ```
 Now we need to make a text file that contains the names of all the different video files we want to stitch back together. Each file name needs to be preceded by the word 'file', followed by a ' ' (space or tab). Each filename needs to be followed by a new line, with the subsequent file afterwards. The name of the file can be anything you want, I just stick with 'stream.txt' for consistency.
 
-### format for stream.txt text file containing paths for file concatenation 
+### format for stream.txt text file containing paths for file concatenation
 
 ```
 file video-part1.mp4
@@ -69,5 +71,3 @@ ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
 ```
 -max_muxing_queue_size 1024
 ```
-
-
