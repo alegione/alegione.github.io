@@ -17,7 +17,7 @@ published: true
   {% include archive-single.html %}
 {% endfor %}
 
-![Citation Plot]({{site.baseurl}}/images/Legione-06-2020-CitationPlot.jpeg)
+![Citation Plot]({{site.baseurl}}/images/Legione-01-2021-CitationPlot.jpeg)
 *__Figure generated using Rshiny tool [ScholarPlot]({{site.baseurl}}/2020/ScholarPlot)__*
 
 
