@@ -27,7 +27,7 @@ ffmpeg -i video.mp4 -c copy -map_chapters -1 video-noChapters.mp4
 It's likely that before the class started you had a few minutes of staring at the screen or getting up to grab a coffee before the other participants arrived. Or perhaps at the end you spoke to a couple of students about things that you don't want the whole class to hear on the recording. To quickly and easily trim bits of the video, you can use the below command. This is trim the first 5 minutes and 11 seconds from the video, and stop it at the 1 hour, 49 minute and 50 second mark.
 
 ```
-ffmpeg --ss 05:11 --to 01:49:50 -i video-noChapters.mp4 -c copy video-trimmed.mp4
+ffmpeg -ss 05:11 -to 01:49:50 -i video-noChapters.mp4 -c copy video-trimmed.mp4
 ```
 
 **NOTE:** you may find that the first or last 10-30 seconds of the video are missing after this process. That is, the sound will still play, but the video won't be present. This is an issue, from recollection, around frame numbers, so if you trim the video at the wrong time point then the video won't kick in until the next appropriate segment (every 15 seconds for example). Don't worry about this for now, as when you do the re-encoding/compression described below, this missing video will return!
@@ -38,9 +38,9 @@ Perhaps you had a few sections of class with breakout rooms. You don't want the 
 ### Trim the video into three sections
 
 ```
-ffmpeg --ss 05:11 --to 15:20 -i video-noChapters.mp4 -c copy video-part1.mp4
-ffmpeg --ss 20:57 --to 40:50 -i video-noChapters.mp4 -c copy video-part2.mp4
-ffmpeg --ss 01:08:08 --to 01:49:50 -i video-noChapters.mp4 -c copy video-part3.mp4
+ffmpeg -ss 05:11 -to 15:20 -i video-noChapters.mp4 -c copy video-part1.mp4
+ffmpeg -ss 20:57 -to 40:50 -i video-noChapters.mp4 -c copy video-part2.mp4
+ffmpeg -ss 01:08:08 -to 01:49:50 -i video-noChapters.mp4 -c copy video-part3.mp4
 
 ```
 Now we need to make a text file that contains the names of all the different video files we want to stitch back together. Each file name needs to be preceded by the word 'file', followed by a ' ' (space or tab). Each filename needs to be followed by a new line, with the subsequent file afterwards. The name of the file can be anything you want, I just stick with 'stream.txt' for consistency.
@@ -64,8 +64,9 @@ ffmpeg -f concat -safe 0 -i stream.txt -c copy video-Concatenated.mp4
 The below command should reduce the file size of a recorded Zoom lesson substantially, without reducing the quality too dramatically. This requires 're-encoding' of the video file. The above commands were directly copying the audio and video across, so it was practically instant. For compression the audio and video is adjusted, so it takes significantly longer, and increases with the length of time of the video.
 
 ```
-ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+ffmpeg -i input.mp4 -vcodec libx265 -acodec aac -crf 28 output.mp4
 ```
+You can also use `-c:v` and `-c:a` instead of `-vcodec` and `-acodec`, respectively
 
 ## if you get a stream/packet size error add this before the output statement
 ```
