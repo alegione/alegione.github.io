@@ -64,9 +64,17 @@ ffmpeg -f concat -safe 0 -i stream.txt -c copy video-Concatenated.mp4
 The below command should reduce the file size of a recorded Zoom lesson substantially, without reducing the quality too dramatically. This requires 're-encoding' of the video file. The above commands were directly copying the audio and video across, so it was practically instant. For compression the audio and video is adjusted, so it takes significantly longer, and increases with the length of time of the video.
 
 ```
-ffmpeg -i input.mp4 -vcodec libx265 -acodec aac -crf 28 output.mp4
+ffmpeg -i input.mp4 -vcodec libx265 -acodec aac -crf 23 output.mp4
 ```
 You can also use `-c:v` and `-c:a` instead of `-vcodec` and `-acodec`, respectively
+
+If you just want to compress without changing any of the codec information (much quicker!), just omit the -vcodec and -acodec commands and leave it as:
+
+```
+ffmpeg -i input.mp4 -crf 23 output.mp4
+```
+
+If you want higher compression, increase the crf (constant rate factor) number, or if you want less compression, decrease the number (23 is the 'default' value, and gives a good result in my experience, particularly for lecture slide, I've had 600 mb files reduce to less than 100 mb).
 
 ## if you get a stream/packet size error add this before the output statement
 ```
